@@ -18,6 +18,6 @@ let number = 1;
 while (number * number <= 1000) {
     number++;
 }
-console.log(number * number);   
+console.log(number);   
 
 
