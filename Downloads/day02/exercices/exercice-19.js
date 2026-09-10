@@ -15,4 +15,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
+let size = 8;
+let sat = "#";
+let space = " ";
+for (let count = 1; count <= 8; count++) {
+    let line = "";
+for (let ping = 1; ping <= 8; ping++) {
+    if ((ping + count) % 2 === 0) 
+        line += space
+    else 
+        line += sat
+}
+console.log(line)
+}
