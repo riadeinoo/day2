@@ -14,14 +14,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let x1 = 1
-let x2 = 0
-for (let count = 0; count <= 20; count++) {
-    let x3 = x1 + x2
-    x1 = x2
-    x2 = x3
-    console.log(x3)
-
+let num1 = 0
+let num2 = 1
+for ( let x = 0; x<= 10; x++) {
+    let total = num1 + num2
+    num1 = num2        
+    num2 = total
+    
+    console.log(num1)
 }
+
+
      
     
