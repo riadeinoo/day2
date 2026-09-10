@@ -14,4 +14,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+for (let num = 100; num <= 999; num++) { 
+    let a = Number.toString(num[0])
+    let b = Number.toString(num[1])
+    let c = Number.toString(num[2])
 
+   if (num= ( a** 3) + (b ** 3) + (c**3))
+    console.log(num)
+}
